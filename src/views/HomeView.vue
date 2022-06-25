@@ -25,6 +25,14 @@
         </v-card>
       </v-col>
     </v-row>
+
+
+    <v-row class="mt-8">
+      <v-col cols="12">
+        <v-pagination :value="1" :length="6"/>
+      </v-col>
+
+    </v-row>
   </v-containiter>
 </template>
 
