@@ -4,7 +4,28 @@
       <v-col cols="12">
         <h1 class="text-center py-10">人員清單</h1>
       </v-col>
+    </v-row>
 
+    <v-row>
+      <v-col md="4" cols="12">
+        <v-card height="150px">
+          <div>
+            <h3 class="primary--text"><strong>王小明</strong></h3>
+            <h4 class="gray--text">男</h4>
+          </div>
+          <div>
+            <span class="gray--text">2021062011493428</span>
+          </div>
+          <div>
+            <v-icon left color="seconsary">
+              mdi-gmail
+            </v-icon>
+            <span class="seconsary--text">
+              Takming001@gs.takming.edu.tw
+            </span>
+          </div>
+        </v-card>
+      </v-col>
     </v-row>
   </v-containiter>
 </template>
