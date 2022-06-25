@@ -38,6 +38,7 @@
 
 
 <script>
+import admin from "../assets/admin.json"
 export default {
   data(){
     return {
